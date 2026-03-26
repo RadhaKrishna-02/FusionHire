@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Interviewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>AI Interview System</h1>
+
+    <!-- Setup -->
+    <div id="setup">
+        <input type="file" id="resume"><br>
+
+        <select id="difficulty">
+            <option>Easy</option>
+            <option>Medium</option>
+            <option>Hard</option>
+        </select><br>
+
+        <button onclick="startSetup()">Get Started</button>
+    </div>
+
+    <!-- Interview -->
+    <div id="interview" style="display:none;">
+        <h2 id="question"></h2>
+
+        <button onclick="startRecording()">🎤 Start</button>
+        <button onclick="stopRecording()">⏹ Stop</button>
+
+        <p id="result"></p>
+    </div>
+
+    <!-- Final -->
+    <div id="final" style="display:none;">
+        <h2 id="score"></h2>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
