@@ -1,7 +1,7 @@
 fastapi
 uvicorn
-openai-whisper
 opencv-python
 sentence-transformers
 python-multipart
-torch
+SpeechRecognition
+pydub
