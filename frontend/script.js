@@ -4,7 +4,7 @@ let questions = [];
 let currentQ = 0;
 
 // ⚠️ CHANGE THIS AFTER RENDER DEPLOY
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "https://fusionhire-1.onrender.com";
 
 async function startSetup() {
 
