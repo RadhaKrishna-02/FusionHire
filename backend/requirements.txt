@@ -1,7 +1,5 @@
 fastapi
 uvicorn
-opencv-python
-sentence-transformers
 python-multipart
 SpeechRecognition
 pydub
